@@ -1,0 +1,86 @@
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    font-family: "0xProtoNerdFontMono";
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+}
+
+window#waybar {
+    background: #1d2021;
+    border: 2px solid #3c3836;
+}
+
+tooltip {
+    background-color: #1d2021;
+    border: 2px solid #7c6f64;
+}
+
+#gamemode {
+    margin: 6px 6px 6px 6px;
+    padding-left: 4px;
+}
+
+#custom-power {
+    margin: 6px 6px 6px 0px;
+    padding-left: 8px;
+}
+
+#clock,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio {
+    margin: 6px 6px 6px 0px;
+    padding: 2px 8px;
+}
+
+#workspaces {
+    background-color: #303536;
+    margin: 6px 0px 6px 6px;
+    border: 2px solid #434a4c;
+}
+
+#workspaces button {
+    all: initial;
+    min-width: 0;
+    box-shadow: inset 0 -3px transparent;
+    padding: 2px 4px;
+    color: #d4be98;
+}
+
+#workspaces button.active {
+    background-color: #3b4439;
+    color: #8bba7f;
+}
+
+#workspaces button.urgent {
+    background-color: #4c3432;
+    color: #db4740;
+}
+
+#workspaces button:hover {
+    opacity: 0.5;
+}
+
+#custom-power,
+#cpu,
+#memory,
+#network,
+#battery,
+#gamemode,
+#pulseaudio, 
+#clock {
+    background-color: #303536;
+    border: 2px solid #434a4c;
+    color: #d4be98;
+}
+
+#cpu.critical,
+#memory.critical {
+    color: #db4740;
+}
