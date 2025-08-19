@@ -1,0 +1,11 @@
+nvim/
+Code - OSS/
+dconf/
+discord/
+fontconfig/
+pulse/
+user-dirs.dirs
+user-dirs.locale
+gtk-3.0/
+Electron/
+nautilus/
