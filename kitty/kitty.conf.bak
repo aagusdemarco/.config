@@ -1,6 +1,6 @@
 font_size 11.0
-foreground #fef2e6
-background #282828
+# foreground #fef2e6
+# background #282828
 cursor_shape block
 shell_integration no-cursor
 map ctrl+equal change_font_size all +2.0
@@ -13,3 +13,9 @@ bold_font        auto
 italic_font      auto
 bold_italic_font auto
 # END_KITTY_FONTS
+
+
+# BEGIN_KITTY_THEME
+# Kanagawa_dragon
+include current-theme.conf
+# END_KITTY_THEME
